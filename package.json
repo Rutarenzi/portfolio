@@ -10,12 +10,13 @@
 		"lint-fix": "eslint src/**/*.js --fix",
 		"format": "prettier . --write",
 		"start": "webpack-dev-server --history-api-fallback --open --mode development",
-		"test": "jest --coverage ",
+		"test": "jest --forceExit --collect-coverage && coveralls < coverage/lcov.info",
 		"prepare": "husky install"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
+	"homepage": "https://github.com/Rutarenzi/portfolio#readme",
 	"dependencies": {
 		"babel-jest": "^29.5.0",
 		"jest-svg-transformer": "^1.0.0",
