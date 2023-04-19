@@ -1,6 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Rutarenzi/portfolio/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Rutarenzi/portfolio/tree/main)
-
-[![Coverage Status](https://coveralls.io/repos/github/Rutarenzi/portfolio/badge.svg?branch=main)](https://coveralls.io/github/Rutarenzi/portfolio?branch=main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Rutarenzi/portfolio/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Rutarenzi/portfolio/tree/main) [![Coverage Status](https://coveralls.io/repos/github/Rutarenzi/portfolio/badge.svg?branch=main)](https://coveralls.io/github/Rutarenzi/portfolio?branch=main)
 
 
 # RutaAxcel Portfolio -- Frontend
