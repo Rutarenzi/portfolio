@@ -4,6 +4,7 @@ import NavBar from '../components/navBar/NavBar';
 import Banner from '../components/banner/Banner';
 import Feature from '../components/feature/Feature';
 import Blog from '../components/blogs/Blog';
+import Skills from '../components/skills/Skills';
 
 export default function Homepage() {
 	return (
@@ -12,6 +13,7 @@ export default function Homepage() {
 				<NavBar />
 				<Banner />
 				<Feature />
+				<Skills />
 				<Blog />
 			</div>
 		</div>
