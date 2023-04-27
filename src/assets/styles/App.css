@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.bannerIcon {
+		@apply w-10 h-10 bg-black bg-opacity-10 text-gray-200 text-xl inline-flex items-center justify-center rounded-xl 
+        hover:bg-opacity-40 hover:-translate-y-1 transition-all text-designColor cursor-pointer duration-300;
+	}
+	.skillsLi {
+		@apply w-full h-14 bg-[#01191a] bg-opacity-25 text-xl text-gray-200 flex justify-center cursor-pointer 
+		hover:bg-opacity-80 duration-300 items-center border-[1px];
+	}
+	.bgOpacity {
+		@apply bg-[#01192b] bg-opacity-40;
+	}
+}
+
+.l {
+	background: linear-gradient(to right, #2623dc 0%, #04c2c9 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
