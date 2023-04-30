@@ -6,7 +6,7 @@ import projectThree from './images/projects/projectThree.jpeg';
 import testimonialOne from './images/testmonial/testimonialOne.png';
 import testmonialTwo from './images/testmonial/testimonialTwo.png';
 import quote from './images/testmonial/quote.png';
-import contacting from './images/contact/contactImg.png';
+import contactImg from './images/contact/contactImg.png';
 import axcel from './images/renzi.jpg';
 
 export {
@@ -18,6 +18,6 @@ export {
 	testimonialOne,
 	testmonialTwo,
 	quote,
-	contacting,
+	contactImg,
 	axcel,
 };
