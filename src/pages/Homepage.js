@@ -6,6 +6,8 @@ import Feature from '../components/feature/Feature';
 import Blog from '../components/blogs/Blog';
 import Skills from '../components/skills/Skills';
 import ContactUs from '../components/contactus/ContactUs';
+import About from '../components/about/About';
+import Aboutbotton from '../components/about/Aboutbotton';
 
 export default function Homepage() {
 	return (
@@ -17,6 +19,8 @@ export default function Homepage() {
 				<Skills />
 				<ContactUs />
 				<Blog />
+				<About />
+				<Aboutbotton />
 			</div>
 		</div>
 	);
