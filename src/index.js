@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
 import AppRoutes from './routes';
 import './assets/styles/App.css';
+import { Provider } from 'react-redux';
+import store from '../src/redux/store';
 
 export default function App() {
 	return (
@@ -14,4 +16,8 @@ export default function App() {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<App />);
+root.render(
+	<Provider store={store}>
+		<App />
+	</Provider>
+);
