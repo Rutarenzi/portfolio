@@ -1,0 +1,16 @@
+/** @type { import('@storybook/react').Preview } */
+import '../src/assets/styles/main.scss';
+import '../src/assets/styles/App.css';
+const preview = {
+	parameters: {
+		actions: { argTypesRegex: '^on[A-Z].*' },
+		controls: {
+			matchers: {
+				color: /(background|color)$/i,
+				date: /Date$/,
+			},
+		},
+	},
+};
+
+export default preview;
